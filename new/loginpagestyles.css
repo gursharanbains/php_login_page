@@ -1,0 +1,57 @@
+body{
+	background-color: lightblue;
+}
+
+.formbox{
+	background-color: white;
+	margin:100px auto;
+	width:500px;
+	height:300px;
+	padding:30px;
+	border-radius:20px;
+}
+
+.loginform{
+	display:flex;
+	flex-direction:column;
+}
+
+.heading{
+	text-align:center;
+	color:navy;
+}
+
+.loginform input[type="text"],input[type="password"]{
+	border:none;
+	border-bottom: 1px solid coral;
+	margin:20px;
+}
+
+.loginform input[type="submit"]
+{
+	border:1px solid coral;
+	background-color: coral;
+	color:white;
+	font-size:1em;
+	border-radius:10px;
+	width:50%;
+	margin:20px auto;
+	padding:10px 10px;
+}
+
+
+.loginform input[type="submit"]:hover{
+	background-color:white;
+	color:coral;
+}
+
+.error{
+	color:red;
+	padding:0;
+	margin:0;
+	font-size:1em;
+}
+
+.hidden{
+	display:none;
+}
